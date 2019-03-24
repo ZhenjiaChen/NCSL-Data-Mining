@@ -5,7 +5,7 @@ import json
 import ast
 
 # Load fips codes
-json_file_path = "../fips codes/fips_codes.json"
+json_file_path = "../fips codes/fips_codes_all.json"
 with open(json_file_path) as f:
     fips_dict = json.load(f)
     fips_dict["D.C."] = {"alpha": "DC", "numeric": "11"}

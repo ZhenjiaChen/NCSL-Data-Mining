@@ -4,7 +4,7 @@ import pandas as pd
 import json
 
 # Load fips codes
-json_file_path = "../fips codes/fips_codes.json"
+json_file_path = "../fips codes/fips_codes_all.json"
 with open(json_file_path) as f:
     fips_dict = json.load(f)
 

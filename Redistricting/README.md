@@ -3,5 +3,7 @@ Data scrapped from [NCSL](http://www.ncsl.org/research/redistricting/redistricti
 
 # CSV format
 "R" - Required redistricting criteria
+
 "A" - Allowed
+
 "P" - Prohibited

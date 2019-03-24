@@ -1,53 +1,53 @@
-,Early Voting,No-Excuse Absentee,Absentee; Excuse Required,All-Mail Voting,Permanent Absentee Status
-Alabama,0,0,1,0,0
-Alaska,1,1,0,(a),0
-Arizona,1,1,0,(a),1
-Arkansas,1,0,1,(a),0
-California,1,1,0,(a),1
-Colorado,0,0,0,1,0
-Connecticut,0,0,1,0,0
-Delaware,0,0,1,0,0
-D.C.,1,1,0,0,1
-Florida,1,1,0,(a),0
-Georgia,1,1,0,0,0
-Hawaii,1,1,0,(a),1
-Idaho,(b),1,0,(a),0
-Illinois,1,1,0,0,0
-Indiana,(b),0,1,0,0
-Iowa,(b),1,0,0,0
-Kansas,1,1,0,(a),0
-Kentucky,0,0,1,0,0
-Louisiana,1,0,1,0,0
-Maine,(b),1,0,0,0
-Maryland,1,1,0,(a),0
-Massachusetts,(c),0,1,0,0
-Michigan,(b),1,0,0,0
-Minnesota,(b),1,0,(a),1
-Mississippi,0,0,1,0,0
-Missouri,0,0,1,(a),0
-Montana,(b),1,0,(a),1
-Nebraska,1,1,0,(a),0
-Nevada,1,1,0,(a),1
-New Hampshire,0,0,1,0,0
-New Jersey,(b),1,0,(a),1
-New Mexico,1,1,0,(a),0
-New York,1,0,0,0,0
-North Carolina,1,1,0,0,0
-North Dakota,1,1,0,(a),0
-Ohio,(b),1,0,0,0
-Oklahoma,(b),1,0,0,0
-Oregon,0,0,0,1,0
-Pennsylvania,0,0,1,0,0
-Rhode Island,0,0,1,0,0
-South Carolina,0,0,1,0,0
-South Dakota,(b),1,0,0,0
-Tennessee,1,0,1,0,0
-Texas,1,0,1,0,0
-Utah,1,1,0,(a),1
-Vermont,(b),1,0,0,0
-Virginia,0,0,1,0,0
-Washington,0,0,0,1,0
-West Virginia,1,0,1,0,0
-Wisconsin,(b),1,0,0,0
-Wyoming,(b),1,0,0,0
-TOTAL,36 states + DC,28 states + DC,19 states,3 states,8 states + DC
+,FIPS Code,Early Voting,No-Excuse Absentee,Absentee; Excuse Required,All-Mail Voting,Permanent Absentee Status
+Alabama,01,0,0,1,0,0
+Alaska,02,1,1,0,2,0
+Arizona,04,1,1,0,2,1
+Arkansas,05,1,0,1,2,0
+California,06,1,1,0,2,1
+Colorado,08,0,0,0,1,0
+Connecticut,09,0,0,1,0,0
+Delaware,10,0,0,1,0,0
+D.C.,11,1,1,0,0,1
+Florida,12,1,1,0,2,0
+Georgia,13,1,1,0,0,0
+Hawaii,15,1,1,0,2,1
+Idaho,16,3,1,0,2,0
+Illinois,17,1,1,0,0,0
+Indiana,18,3,0,1,0,0
+Iowa,19,3,1,0,0,0
+Kansas,20,1,1,0,2,0
+Kentucky,21,0,0,1,0,0
+Louisiana,22,1,0,1,0,0
+Maine,23,3,1,0,0,0
+Maryland,24,1,1,0,2,0
+Massachusetts,25,4,0,1,0,0
+Michigan,26,3,1,0,0,0
+Minnesota,27,3,1,0,2,1
+Mississippi,28,0,0,1,0,0
+Missouri,29,0,0,1,2,0
+Montana,30,3,1,0,2,1
+Nebraska,31,1,1,0,2,0
+Nevada,32,1,1,0,2,1
+New Hampshire,33,0,0,1,0,0
+New Jersey,34,3,1,0,2,1
+New Mexico,35,1,1,0,2,0
+New York,36,1,0,0,0,0
+North Carolina,37,1,1,0,0,0
+North Dakota,38,1,1,0,2,0
+Ohio,39,3,1,0,0,0
+Oklahoma,40,3,1,0,0,0
+Oregon,41,0,0,0,1,0
+Pennsylvania,42,0,0,1,0,0
+Rhode Island,44,0,0,1,0,0
+South Carolina,45,0,0,1,0,0
+South Dakota,46,3,1,0,0,0
+Tennessee,47,1,0,1,0,0
+Texas,48,1,0,1,0,0
+Utah,49,1,1,0,2,1
+Vermont,50,3,1,0,0,0
+Virginia,51,0,0,1,0,0
+Washington,53,0,0,0,1,0
+West Virginia,54,1,0,1,0,0
+Wisconsin,55,3,1,0,0,0
+Wyoming,56,3,1,0,0,0
+TOTAL,N/A,36 states + DC,28 states + DC,19 states,3 states,8 states + DC

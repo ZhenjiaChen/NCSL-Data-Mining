@@ -17,12 +17,16 @@ for row in rows:
     cols = [cell.text.strip() for cell in cols]
     data.append(cols)
 
-data_array = [row[1:] for row in data]
-row_idx = [row[0] for row in data]
+data_array = [row[1:] for row in data][1:]
+row_idx = [row[0] for row in data][1:]
 
 # print(str(data).replace(u"\u25cf","*"))
-frame = pd.DataFrame(ast.literal_eval(str(data[1:]).replace(u"\u25cf","1").replace("\'\'","0")),
-                     columns = data[0])
+# df = pd.DataFrame(ast.literal_eval(str(data[1:]).replace(u"\u25cf","1").replace("\'\'","0")),
+#                      columns = data[0])
+df = pd.DataFrame(ast.literal_eval(str(data_array).replace(u"\u25cf","1").replace("\'\'","0")),
+                     index = row_idx,
+                     columns = data[0][1:])
 
 if __name__ == "__main__":
-    print(frame)
+    print(df)
+    df.to_csv("absentee.csv")

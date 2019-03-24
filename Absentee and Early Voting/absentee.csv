@@ -1,0 +1,53 @@
+,Early Voting,No-Excuse Absentee,Absentee; Excuse Required,All-Mail Voting,Permanent Absentee Status
+Alabama,0,0,1,0,0
+Alaska,1,1,0,(a),0
+Arizona,1,1,0,(a),1
+Arkansas,1,0,1,(a),0
+California,1,1,0,(a),1
+Colorado,0,0,0,1,0
+Connecticut,0,0,1,0,0
+Delaware,0,0,1,0,0
+D.C.,1,1,0,0,1
+Florida,1,1,0,(a),0
+Georgia,1,1,0,0,0
+Hawaii,1,1,0,(a),1
+Idaho,(b),1,0,(a),0
+Illinois,1,1,0,0,0
+Indiana,(b),0,1,0,0
+Iowa,(b),1,0,0,0
+Kansas,1,1,0,(a),0
+Kentucky,0,0,1,0,0
+Louisiana,1,0,1,0,0
+Maine,(b),1,0,0,0
+Maryland,1,1,0,(a),0
+Massachusetts,(c),0,1,0,0
+Michigan,(b),1,0,0,0
+Minnesota,(b),1,0,(a),1
+Mississippi,0,0,1,0,0
+Missouri,0,0,1,(a),0
+Montana,(b),1,0,(a),1
+Nebraska,1,1,0,(a),0
+Nevada,1,1,0,(a),1
+New Hampshire,0,0,1,0,0
+New Jersey,(b),1,0,(a),1
+New Mexico,1,1,0,(a),0
+New York,1,0,0,0,0
+North Carolina,1,1,0,0,0
+North Dakota,1,1,0,(a),0
+Ohio,(b),1,0,0,0
+Oklahoma,(b),1,0,0,0
+Oregon,0,0,0,1,0
+Pennsylvania,0,0,1,0,0
+Rhode Island,0,0,1,0,0
+South Carolina,0,0,1,0,0
+South Dakota,(b),1,0,0,0
+Tennessee,1,0,1,0,0
+Texas,1,0,1,0,0
+Utah,1,1,0,(a),1
+Vermont,(b),1,0,0,0
+Virginia,0,0,1,0,0
+Washington,0,0,0,1,0
+West Virginia,1,0,1,0,0
+Wisconsin,(b),1,0,0,0
+Wyoming,(b),1,0,0,0
+TOTAL,36 states + DC,28 states + DC,19 states,3 states,8 states + DC

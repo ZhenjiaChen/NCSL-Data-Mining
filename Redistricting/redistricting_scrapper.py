@@ -4,8 +4,8 @@ import pandas as pd
 import json
 
 # Load fibs codes
-json_file = "D:/Documents/ElectionLab/NCSL/NCSL-Web-Scrapping/fips codes/fips_codes.json"
-with open(json_file) as f:
+json_file_path = "../fips codes/fips_codes.json"
+with open(json_file_path) as f:
     fips_dict = json.load(f)
 
 # Load page

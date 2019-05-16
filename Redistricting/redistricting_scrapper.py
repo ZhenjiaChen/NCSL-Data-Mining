@@ -26,19 +26,26 @@ for row in rows:
 
 row_index_tuples = [(data[2*int(c/2)][0],data[c][1]) for c in range(len(data))]
 data_array = []
-keywords = ["Compact",
-            "Contiguous",
-            # "Political Subdivisions",
-            "Communities of Interest"]
+keywords = ["compact",
+            "contiguous",
+            "political subdivisions",
+            "communities of interest",
+            "preserve cores",
+            "avoid pairing",
+            "favor or disfavor",
+            "partisan data",
+            "competitive",
+            "partisan advantage"]
 
 # Formating data_array
 for i in range(len(data)):
     entry = data[i]
     state = data[2*int(i/2)][0]
     criteria = entry[2]
+    criteria = criteria.lower()
 
-    allowed_idx = criteria.find("Allowed") if criteria.find("Allowed") != -1 else len(criteria)+1
-    prohibited_idx = criteria.find("Prohibited") if criteria.find("Prohibited") != -1 else len(criteria)+1
+    allowed_idx = criteria.find("allowed") if criteria.find("allowed") != -1 else len(criteria)+1
+    prohibited_idx = criteria.find("prohibited") if criteria.find("prohibited") != -1 else len(criteria)+1
 
     entry_array = [fips_dict[state]["numeric"]]
     for word in keywords:
@@ -59,11 +66,17 @@ df = pd.DataFrame(data_array,
                   columns = ["FIPS Code",
                              "Compactness",
                              "Contiguity of Districts",
-                             # "Preservation of Political Subdivisions",
-                             "Preservation of Communities of Interest",])
+                             "Preservation of Political Subdivisions",
+                             "Preservation of Communities of Interest",
+                             "Preservation of cores of prior districts",
+                             "Avoid pairing incumbents",
+                             "Favor or disfavor and incumbent or candidate",
+                             "Using partisan data",
+                             "Competitiveness",
+                             "Preserving partisan advantage"])
 
 if __name__ == "__main__":
     print(fips_dict)
 
-    with open("redistrcting.csv", mode='w') as f:
+    with open("redistrcting_all.csv", mode='w') as f:
         df.to_csv(f)

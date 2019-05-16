@@ -15,7 +15,7 @@ page_url = "http://www.ncsl.org/research/elections-and-campaigns/absentee-and-ea
 response = requests.get(page_url, timeout=5)
 soup = BeautifulSoup(response.content, "html.parser")
 
-table = soup.find("table", attrs={"class":"table table=bordered table-hover table-condensed"})
+table = soup.find_all("table")[1]
 table_body = table.find("tbody")
 
 # Parse data
@@ -45,3 +45,6 @@ df = pd.DataFrame(ast.literal_eval(data_array),
 if __name__ == "__main__":
     # print(df)
     df.to_csv("absentee.csv")
+    # for row in ast.literal_eval(data_array):
+    #     if row[0] == fips_dict.get("South Carolina").get("numeric"):
+    #         print(row)

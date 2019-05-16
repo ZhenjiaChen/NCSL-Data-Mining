@@ -39,7 +39,7 @@ Oklahoma,40,3,1,0,0,0
 Oregon,41,0,0,0,1,0
 Pennsylvania,42,0,0,1,0,0
 Rhode Island,44,0,0,1,0,0
-South Carolina,45,0,0,1,0,0
+South Carolina,45,0,1,0,0,0
 South Dakota,46,3,1,0,0,0
 Tennessee,47,1,0,1,0,0
 Texas,48,1,0,1,0,0
@@ -50,4 +50,4 @@ Washington,53,0,0,0,1,0
 West Virginia,54,1,0,1,0,0
 Wisconsin,55,3,1,0,0,0
 Wyoming,56,3,1,0,0,0
-TOTAL,N/A,36 states + DC,28 states + DC,19 states,3 states,8 states + DC
+TOTAL,N/A,36 states plus D.C.,28 states plus D.C.,19 states,Three states,Eight states plus DC

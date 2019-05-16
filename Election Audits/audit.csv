@@ -1,0 +1,52 @@
+,FIPS Code,Audit Type
+Alabama,01,None
+Alaska,02,Traditional
+Arizona,04,Traditional
+Arkansas,05,None
+California,06,"Traditional, with an option to conduct a risk-limiting audit instead beginning in 2020"
+Colorado,08,Risk-limiting
+Connecticut,09,Traditional
+Delaware,10,None
+District of Columbia,11,Traditional
+Florida,12,Traditional
+Georgia,13,None
+Hawaii,15,Traditional
+Idaho,16,Other
+Illinois,17,Traditional
+Indiana,18,Other
+Iowa,19,Traditional
+Kansas,20,Traditional
+Kentucky,21,Traditional
+Louisiana,22,None
+Maine,23,None
+Maryland,24,Traditional
+Massachusetts,25,Traditional
+Michigan,26,Traditional and procedural
+Minnesota,27,Traditional
+Mississippi,28,None
+Missouri,29,Traditional
+Montana,30,Traditional
+Nebraska,31,Other
+Nevada,32,Traditional
+New Hampshire,33,None
+New Jersey,34,Traditional
+New Mexico,35,"Traditional, with a tiered system based on the margin of victory"
+New York,36,Traditional
+North Carolina,37,Traditional
+North Dakota,38,Other
+Ohio,39,"Traditional, with risk-limiting audits recommended"
+Oklahoma,40,None
+Oregon,41,"Traditional, with a tiered system based on the margin of victory"
+Pennsylvania,42,Traditional hand count or electronic
+Rhode Island,44,Risk-limiting
+South Carolina,45,Other
+South Dakota,46,None
+Tennessee,47,Traditional
+Texas,48,Traditional
+Utah,49,Traditional
+Vermont,50,Traditional
+Virginia,51,Risk-limiting
+Washington,53,"Traditional, with option of conducted a risk-limiting audit"
+West Virginia,54,Traditional
+Wisconsin,55,Traditional
+Wyoming,56,Other
